@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" onmouseleave="reset()">
+<head>
+    <meta charset="UTF-8" onmouseleave="reset()">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" onmouseleave="reset()">
+    <title>Simulación: 8 Reínas</title>
+    <link rel="stylesheet" href="css/style.css" onmouseleave="reset()">
+    <link rel="icon" href="img/favicon.ico" onmouseleave="reset()">
+    <script src="js/script.js" onmouseleave="reset()"></script>
+</head>
+<body>
+    <table id="board" onmouseleave="reset()">
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(0,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(0,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(0,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(0,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(0,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(0,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(0,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(0,7)" onmouseleave="reset()"></td>
+        </tr>
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(1,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(1,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(1,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(1,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(1,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(1,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(1,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(1,7)" onmouseleave="reset()"></td>
+        </tr>
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(2,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(2,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(2,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(2,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(2,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(2,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(2,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(2,7)" onmouseleave="reset()"></td>
+        </tr>
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(3,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(3,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(3,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(3,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(3,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(3,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(3,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(3,7)" onmouseleave="reset()"></td>
+        </tr>
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(4,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(4,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(4,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(4,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(4,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(4,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(4,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(4,7)" onmouseleave="reset()"></td>
+        </tr>
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(5,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(5,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(5,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(5,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(5,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(5,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(5,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(5,7)" onmouseleave="reset()"></td>
+        </tr>
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(6,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(6,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(6,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(6,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(6,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(6,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(6,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(6,7)" onmouseleave="reset()"></td>
+        </tr>
+        <tr>
+            <td onclick="cellClick(this)" onmouseover="change(7,0)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(7,1)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(7,2)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(7,3)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(7,4)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(7,5)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(7,6)" onmouseleave="reset()"></td>
+            <td onclick="cellClick(this)" onmouseover="change(7,7)" onmouseleave="reset()"></td>
+        </tr>
+    </table>
+    <p id="reinas_colocadas">Reinas colocadas: 0</p>
+    <div id="ganador"></div>
+</body>
+</html>

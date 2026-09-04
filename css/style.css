@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+td {
+    border: 1px solid black;        
+    height: 50px;
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color: black;
+}
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: white;
+}
+
+#reinas_colocadas {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#ganador {
+    font-size: 40pt;
+    font-weight: bold;
+    color: lime;
+}
